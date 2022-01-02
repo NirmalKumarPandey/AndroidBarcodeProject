@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        Log.d("Log", "Test");
         setContentView(R.layout.activity_main);
         mBarcodeName=findViewById(R.id.barcode_address);
         iImageView=findViewById(R.id.barcode_image);
